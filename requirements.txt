@@ -4,4 +4,4 @@ opencv-python
 numpy
 pillow
 insightface
-onnxruntime==1.16.3
+
