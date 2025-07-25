@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "face-api"
+version = "0.1.0"
+description = "Face analysis API"
+authors = ["Jayma23 <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"               # ✅ 明确指定版本（不要 ^3.10）
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+insightface = "^0.7.3"
+onnxruntime = "^1.16.3"
+numpy = "^1.24"
+requests = "^2.31"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
