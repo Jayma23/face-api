@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-from face_utils import extract_main_face_embedding
+from .face_utils import extract_main_face_embedding
 
 app = FastAPI()
 
